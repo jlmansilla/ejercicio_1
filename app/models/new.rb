@@ -1,5 +1,4 @@
-
- class New < ApplicationRecord
+class New < ApplicationRecord
    # == Attributes =================================================================================
  
    # == Constants ==================================================================================
@@ -18,6 +17,6 @@
    validates :body, :link, presence: true
    validates :category acceptance: true
    # == Raise errors  ==============================================================================
- end
+end
  
 
